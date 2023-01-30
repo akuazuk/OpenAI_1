@@ -9,7 +9,7 @@ for i in range (1, 5):
   try:
     sys.argv[i]
   except:
-    print ("You should input Argv {}".format(i))
+    print ("You must input Argv {}".format(i))
     if i == 4:
       sys.exit()
 print(triange(int(sys.argv[1]), int(sys.argv[2])))
